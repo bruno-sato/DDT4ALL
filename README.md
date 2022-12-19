@@ -21,7 +21,7 @@ Recomendado para uso no Linux ou Mac. Para Windows, existe o instalador que é i
 
   - Abra o arquivo `options.py` em algum editor de texto. Para isso eu recomendo o [sublime](https://www.sublimetext.com/)
   - Edite a linha 51
-  - Substitua o conteúdo por esse valor: t = gettext.translation(filename, 'locale', fallback=True)
+  - Substitua o conteúdo por esse valor: `t = gettext.translation(filename, 'locale', fallback=True)`
   - Salve o arquivo
   
   Com o terminal aberto na pasta do aplicativo, execute o comando: `python3 ddt4all.py`
@@ -46,7 +46,7 @@ Recomendado para uso no Linux ou Mac. Para Windows, existe o instalador que é i
 
   - Abra o arquivo `options.py` em algum editor de texto. Para isso eu recomendo o [sublime](https://www.sublimetext.com/)
   - Edite a linha 51
-  - Substitua o conteúdo por esse valor: t = gettext.translation(filename, 'locale', fallback=True)
+  - Substitua o conteúdo por esse valor: `t = gettext.translation(filename, 'locale', fallback=True)`
   - Salve o arquivo
   
   Com o terminal aberto na pasta do aplicativo, execute o comando: `python3 ddt4all.py`
